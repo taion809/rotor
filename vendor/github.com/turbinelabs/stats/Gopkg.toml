@@ -1,0 +1,19 @@
+ignored = [
+  "github.com/turbinelabs/api*",
+  "github.com/turbinelabs/idgen*",
+  "github.com/turbinelabs/nonstdlib*",
+  "github.com/turbinelabs/test*",
+  "github.com/golang/mock*",
+]
+
+[prune]
+  unused-packages = true
+  go-tests = true
+
+[[constraint]]
+  name = "github.com/rs/xstats"
+  revision = "c67367528e160e557423e4d87059614d8c31a582"
+
+[[constraint]]
+  name = "github.com/honeycombio/libhoney-go"
+  revision = "v1.7.0"
